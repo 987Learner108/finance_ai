@@ -3,7 +3,7 @@
 .env.local
 .env.production
 .env.staging
-
+MONGODB_ATLAS_SETUP.md
 # MongoDB Atlas Configuration (already included)
 MONGODB_URI
 DATABASE_NAME
