@@ -31,10 +31,10 @@ services:
 
   - type: web
     name: finance-ai-frontend
-    env: node
+    env: static
     buildCommand: "npm install && npm run build"
-    startCommand: "npm start"
+    staticPublishPath: dist
     autoDeploy: true
     envVars:
-      - key: REACT_APP_API_URL
+      - key: VITE_API_URL
         value: https://finance-ai-backend.onrender.com
