@@ -37,4 +37,4 @@ services:
     autoDeploy: true
     envVars:
       - key: VITE_API_URL
-        value: https://finance-ai-backend.onrender.com
+        value: https://finance-ai-4w4z.onrender.com
